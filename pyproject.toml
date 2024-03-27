@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "task-manager"
+version = "0.1.0"
+description = "new app"
+authors = ["Pavel-Devel <fominlzpv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
