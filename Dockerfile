@@ -21,4 +21,4 @@ COPY . /app
 
 RUN rm -rf /venv
 
-CMD ["python", "app.py"]
+CMD ["poetry", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]
